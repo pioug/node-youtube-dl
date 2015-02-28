@@ -1,0 +1,11 @@
+{
+  "name": "node-youtube-dl",
+  "version": "0.0.1",
+  "description": "Cheap Javascript wrapper for youtube-dl",
+  "author": "Gilles Piou <gilles.piou@gmail.com>",
+  "license": "MIT",
+  "main": "module.js",
+  "scripts": {
+    "preinstall": "curl https://yt-dl.org/downloads/2015.02.26.2/youtube-dl -o ./youtube-dl && chmod a+x ./youtube-dl"
+  }
+}
