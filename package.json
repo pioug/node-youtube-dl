@@ -7,7 +7,7 @@
   "repository" : "pioug/node-youtube-dl",
   "main": "module.js",
   "scripts": {
-    "preinstall": "curl https://yt-dl.org/downloads/2015.02.26.2/youtube-dl -o ./youtube-dl && chmod a+x ./youtube-dl"
+    "preinstall": "curl https://yt-dl.org/downloads/2015.04.28/youtube-dl -o ./youtube-dl && chmod a+x ./youtube-dl"
   },
   "engines": {
     "iojs": ">=1.0.0",
