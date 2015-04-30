@@ -2,7 +2,7 @@
 **Node module for [youtube-dl](http://rg3.github.io/youtube-dl/)**
 
 ```js
-var require('node-youtube-dl');
+var youtubeDl = require('node-youtube-dl');
 
 youtubeDl
   .getJSON('https://www.youtube.com/watch?v=fqas446dwiU')
